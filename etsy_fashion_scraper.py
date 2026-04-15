@@ -1,6 +1,7 @@
 import time
 import requests
 import os
+import json
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -21,6 +22,13 @@ class EtsyFashionScraper:
         :return:
         """
         print(f"[EstyFashionScraper]: {log_string}")
+
+    def save_products(self):
+        if len(self.scraped_products) > 0:
+            file_name = "etsy_fashion_scraped_products.json"
+            with open(file_name) as f:
+                json.dump(self.scraped_products, f)
+                self.do_scraper_log(f"Saved scraped product at: {file_name}")
 
     def go_to_clothes_category(self):
         pass
