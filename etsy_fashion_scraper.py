@@ -21,3 +21,27 @@ class EtsyFashionScraper:
 
     def find_safe_value(self, content, tag, class_name=""):
         pass
+
+    def parse_product_info(self, html_content_list):
+        pass
+
+    def grab_product_info(self):
+        """
+        Grab the products info e.g. product name, price and rating on current page
+        :return:
+        """
+        pass
+
+    def go_to_next_page(self):
+        pass
+
+    def download_product_images(self):
+        """
+        Method for downloading product images
+        :return:
+        """
+        pass
+
+    def scrape_fashion(self):
+        pass
+
