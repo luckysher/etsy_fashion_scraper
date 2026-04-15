@@ -49,3 +49,7 @@ class EtsyFashionScraper:
     def scrape_fashion(self):
         pass
 
+
+if __name__ == '__main__':
+    etsyScraper = EtsyFashionScraper()
+    etsyScraper.scrape_fashion()
