@@ -19,6 +19,7 @@ $ pip install - requirements.txt
 > To run the scraper on windows system either you can use cmd and above command to run 
   or in simple way without installing any library you can use .exe file to execute the scraper
  
-
+# screenshot of the scraped data
+![basic-features](https://github.com/luckysher/etsy_fashion_scraper/blob/main/Screenshot%20from%202026-04-15%2012-45-21.png)	
 
  
