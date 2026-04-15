@@ -1,9 +1,8 @@
-
-
-
 # Etsy fashion scraper
 Etsy fashion scraper is Python scraper to scrape all fashion clothes from etsy site
-This scraper detect and solve the slider captcha if captcha page displayed
+This scraper detect and solve the slider captcha if captcha page displayed.
+Side by side the scraper download the images of the clothes in the images folder and save the 
+scraped data in the .json file
 
 # setup project
 Run following command in the virtual environment
