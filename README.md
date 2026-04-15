@@ -12,3 +12,14 @@ $ pip install - requirements.txt
 
 # Python version used
  Python 3.10
+
+# How to run on terminal (linux) and using .exe on windows ?
+> Run the following command on terminal to run the scraper on linux / terminal
+  $ python etsy_fashion_scraper.py
+
+> To run the scraper on windows system either you can use cmd and above command to run 
+  or in simple way without installing any library you can use .exe file to execute the scraper
+ 
+
+
+ 
