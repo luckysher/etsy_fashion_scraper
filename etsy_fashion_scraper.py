@@ -11,6 +11,8 @@ class EtsyFashionScraper:
 
     def __init__(self):
         self.base_url = "https://etsy.com"
+        self.driver = webdriver.Chrome()
+        self.scraped_products = []
 
     def do_scraper_log(self, log_string=""):
         """
@@ -18,7 +20,7 @@ class EtsyFashionScraper:
         :param log_string: String to log on terminal
         :return:
         """
-        pass
+        print(f"[EstyFashionScraper]: {log_string}")
 
     def go_to_clothes_category(self):
         pass
