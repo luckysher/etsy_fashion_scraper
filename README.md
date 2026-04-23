@@ -20,6 +20,15 @@ $ pip install - requirements.txt
   or in simple way without installing any library you can use .exe file to execute the scraper
  
 # screenshot of the scraped data
-![basic-features](https://github.com/luckysher/etsy_fashion_scraper/blob/main/Screenshot%20from%202026-04-15%2012-45-21.png)	
+![basic-features](https://github.com/luckysher/etsy_fashion_scraper/blob/main/mockup_1.png)
+
+# screenshot of the scraped images
+![basic-features](https://github.com/luckysher/etsy_fashion_scraper/blob/main/mockup_2.png)
+![basic-features](https://github.com/luckysher/etsy_fashion_scraper/blob/main/mockup_3.png)
+![basic-features](https://github.com/luckysher/etsy_fashion_scraper/blob/main/mockup_4.png)
+![basic-features](https://github.com/luckysher/etsy_fashion_scraper/blob/main/mockup_5.png)
+![basic-features](https://github.com/luckysher/etsy_fashion_scraper/blob/main/mockup_6.png)
+![basic-features](https://github.com/luckysher/etsy_fashion_scraper/blob/main/mockup_7.png)
+
 
  
